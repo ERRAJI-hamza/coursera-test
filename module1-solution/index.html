@@ -8,9 +8,15 @@
     <title>Expressions and Interpolation</title>
   </head>
   <body>
-    <h1></h1>
+
     <div ng-controller='M1Controller'>
-      
+       <div class="M1">
+        <h1>Lunch checker</h1>
+        <input type="text" ng-model="dishes" id="item1" placeholder="list comma separted dishes you usually have for lunch">
+        <br><button id="btn" ng-click="checker();">check if too much</button>
+        <br>
+        {{message}}
+       </div>
     </div>
   </body>
 </html>

@@ -1,0 +1,15 @@
+.M1{
+    margin-top: 20PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#item1{
+    padding: 6px;
+}
+#btn{
+    max-width: 130px;
+    border-radius: 4px;
+    color: black;
+    background: rgb(127, 176, 255);
+}
